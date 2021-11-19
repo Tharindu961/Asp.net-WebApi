@@ -1,4 +1,5 @@
-﻿using BookApi01.Repository;
+﻿using BookApi01.Models;
+using BookApi01.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -17,6 +18,18 @@ namespace BookApi01.Controllers
         public BooksController(IBookRepository bookRepository)
         {
             _bookRepository = bookRepository;
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<Book>> GetBooks()
+        {
+            return await _bookRepository.Get();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Book>> GetBooks(int id)
+        {
+            return await _bookRepository.Get(id);
         }
     }
 }
