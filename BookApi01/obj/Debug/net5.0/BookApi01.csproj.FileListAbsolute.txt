@@ -48,7 +48,6 @@ D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\staticwebassets\BookApi01.StaticWebAs
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\staticwebassets\BookApi01.StaticWebAssets.xml
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\scopedcss\bundle\BookApi01.styles.css
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\BookApi01.RazorTargetAssemblyInfo.cache
-D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\BookApi01.csproj.CopyComplete
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\BookApi01.dll
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\ref\BookApi01.dll
 D:\C#\BookApi01\BookApi01\obj\Debug\net5.0\BookApi01.pdb
